@@ -1,0 +1,58 @@
+.car-type {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  transition: all .2s ease;
+  background: #fff;
+  z-index: 999;
+  height: 100%;
+  box-shadow: 0 0 0.5rem #eee;
+  transform: translate3d(100%, 0, 0);
+}
+
+.car-type.active {
+  transform: translate3d(0, 0, 0);
+}
+
+.car-type > div {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.car-type > div > p {
+  margin-left: 1px;
+  font-size: .28rem;
+  line-height: .48rem;
+  background: #f2f2f2;
+  padding-left: .3rem;
+  color: #717171;
+}
+
+.car-type > div ul {
+  margin-left: .1rem;
+}
+
+.car-type ul li {
+  height: 1.4rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+.car-type ul li img {
+  margin: 0 .1rem 0 .2rem;
+  width: 1.8rem;
+  height: 1.2rem;
+}
+
+.car-type ul li .Alias > p:first-child {
+  font-size: .34rem;
+  color: #5f687a;
+}
+
+.car-type ul li .Alias p:nth-child(2) {
+  margin-top: .1rem;
+  font-size: .28rem;
+  color: red;
+}

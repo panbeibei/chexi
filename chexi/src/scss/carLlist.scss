@@ -1,0 +1,32 @@
+.car-brand{
+    width:100%;
+}
+div{
+    width:100%;
+    p{
+        width:100%;
+        font-size: .28rem;
+        line-height: .4rem;
+        background: #f4f4f4;
+        padding-left: .3rem;
+        color: #aaa;
+    } 
+ 
+    ul{
+        margin: 0 .3rem;
+        box-sizing: border-box;
+        li{
+            width:100%;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ddd;
+            img{
+                height:.8rem;
+            }
+            span{
+                font-size: .32rem;
+                margin-left: .4rem;
+                vertical-align: 80%;
+            }
+        }
+    }
+} 
